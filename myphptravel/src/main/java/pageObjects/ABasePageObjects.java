@@ -15,4 +15,7 @@ public class ABasePageObjects {
 		this.driver = getDriver();
 	}
 	
+	public void driverquit () {
+		driver.quit();
+	}
 }
